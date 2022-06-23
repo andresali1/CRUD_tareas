@@ -1,0 +1,10 @@
+CREATE DATABASE crudNodeJs;
+USE crudNodeJs;
+
+CREATE TABLE tasks(
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+title VARCHAR(100),
+description VARCHAR(255)
+);
+
+SELECT * FROM tasks;
